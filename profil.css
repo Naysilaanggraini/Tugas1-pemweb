@@ -1,0 +1,67 @@
+/* Mengatur style body */
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style untuk container utama */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Heading 1 */
+h1 {
+    background-color: #003333;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Style untuk tabel biodata */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+/* Mengatur cell tabel */
+td {
+    padding: 8px;
+    vertical-align: top;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Mengatur gambar profil */
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 10
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+/* Style untuk tombol */
+button {
+    padding: 10px 20px;
+    background-color: #003333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}

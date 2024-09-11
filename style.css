@@ -1,0 +1,21 @@
+/*ini untuk latihan 1.html*/
+body {
+  background-color: #003333;
+  display: flex;
+  justify-content: center; /* Untuk memusatkan secara horizontal (kalimatnya ditengah baris)*/
+  align-items: center; /* Untuk memusatkan secara vertikal (barisnya di tengah layar) */
+  height: 100vh; /* Mengatur tinggi halaman agar sesuai dengan tinggi viewport */
+  margin: 0;
+}
+
+.heading1{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: white;
+}
+
+.heading2{
+	color: whitesmoke;
+	font-size: 10;
+}

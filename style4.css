@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: ghostwhite;
+}
+
+/* Mengatur h1 agar berada di tengah dan berwarna */
+.h1 h1 {
+    color: white;
+    background-color: #003333;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Mengatur bagian keterangan tabel */
+.h2nP h3 {
+    color: #003333;
+    text-align: center;
+}
+.h2nP p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Mengatur lebar tabel agar memanjang ke kanan */
+.table-container table {
+    width: 100%; /* Membuat tabel memanjang ke kanan */
+    margin: 20px auto;
+    border-collapse: collapse; /* Menyatukan border */
+    table-layout: fixed; /* Membuat lebar kolom merata */
+}
+
+/* Mengatur border untuk tabel */
+.table-container table, .table-container th, .table-container td {
+    border: 1px solid #999; /* Membuat border satu saja */
+}
+
+/* Mengatur header tabel */
+.table-container th {
+    background-color: #003333; /* Warna hijau untuk header */
+    color: white; /* Teks putih */
+    padding: 12px; /* Memberikan ruang pada header */
+    text-align: center; /* Rata tengah */
+}
+
+/* Mengatur tampilan isi tabel */
+.table-container td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Mengubah warna link profil */
+.table-container a {
+    color: blueviolet; /* Warna hijau */
+    text-decoration: none;
+}
+.table-container a:hover {
+    text-decoration: underline; /* Garis bawah saat di-hover */
+}

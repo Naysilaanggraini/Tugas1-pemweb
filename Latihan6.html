@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 6</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <div class="h1">
+        <h1>Belajar Membuat Formulir</h1>
+    </div>
+
+    <form name="form_mahasiswa" action="" method="">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="nama">
+                </td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="nim">
+                </td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                    <input type="date" name="tanggal_lahir">
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td>
+                    <textarea name="alamat"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk" value="Laki-laki"> Laki-laki<br>
+                    <input type="radio" name="jk" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="Membaca"> Membaca<br>
+                    <input type="checkbox" name="hobi" value="Menulis"> Menulis<br>
+                    <input type="checkbox" name="hobi" value="Berenang"> Berenang<br>
+                    <input type="checkbox" name="hobi" value="Memancing"> Memancing<br>
+                    <input type="checkbox" name="hobi" value="Rebahan"> Rebahan
+                </td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>:</td>
+                <td>
+                    <select name="prodi">
+                        <option value="PGSD">Pendidikan Guru Sekolah Dasar</option>
+                        <option value="PGPAUD">Pendidikan Guru PAUD</option>
+                        <option value="PKP">Pendidikan Kelautan dan Perikanan</option>
+                        <option value="SIK">Sistem Informasi Kelautan</option>
+                        <option value="LK">Logistik Kelautan</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Simpan">
+    </form>
+    <br>
+    <p>Ini hasilnya: <a href="latihan5.html">kembali</a></p>
+</body>
+</html>
